@@ -6,12 +6,12 @@ class Main{
     public static void main(String[] args) {
         Friends frnd1 = new Friends();
         frnd1.Name = "LOKESH";
-        frnd1.RollNumber = 94;
+        frnd1.RollNumber = 914;
         System.out.println(frnd1.Name);
         System.out.println(frnd1.RollNumber);
         Friends frnd2 = new Friends();
         frnd2.Name = "SHIVA";
-        frnd2.RollNumber = 14;
+        frnd2.RollNumber = 114;
         System.out.println(frnd2.Name);
         System.out.println(frnd2.RollNumber);
     }

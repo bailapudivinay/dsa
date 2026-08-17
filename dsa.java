@@ -2,6 +2,10 @@ class Friends{
     String Name;
     int RollNumber;
 }
+class Goals{
+    int a;
+    String Name;
+}    
 class Main{
     public static void main(String[] args) {
         Friends frnd1 = new Friends();
@@ -14,6 +18,9 @@ class Main{
         frnd2.RollNumber = 114;
         System.out.println(frnd2.Name);
         System.out.println(frnd2.RollNumber);
+        Goals goal1 = new Goals();
+        goal1.a = 1;
+        goal1.Name = "MATHS";
     }
 
     /*  public static void main(String[] args) {

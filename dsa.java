@@ -5,7 +5,11 @@ class Friends{
 class Goals{
     int a;
     String Name;
-}    
+}  
+class Enjoyment{
+    String activity ;
+    int time;
+}
 class Main{
     public static void main(String[] args) {
         Friends frnd1 = new Friends();
@@ -21,6 +25,11 @@ class Main{
         Goals goal1 = new Goals();
         goal1.a = 1;
         goal1.Name = "MATHS";
+        Enjoyment enjoyment1 = new Enjoyment();
+        enjoyment.game = "Cricket";
+        enjoyment.time = 2 ;
+        System.out.println(enjoyment1.Game);
+        System.out.println(enjoyment1.time);
     }
 
     /*  public static void main(String[] args) {

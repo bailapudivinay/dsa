@@ -10,6 +10,9 @@ class Enjoyment{
     String activity ;
     int time;
 }
+class Best{
+    String goodthings;
+}    
 class Main{
     public static void main(String[] args) {
         Friends frnd1 = new Friends();
@@ -30,6 +33,9 @@ class Main{
         enjoyment.time = 5 ;
         System.out.println(enjoyment1.Game);
         System.out.println(enjoyment1.time);
+        Best best1 = new Best();
+        best1.goodthings = "LOVE" ;
+        System.out.println(best1.goodthings);
     }
 
     /*  public static void main(String[] args) {

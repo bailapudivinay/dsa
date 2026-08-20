@@ -27,7 +27,7 @@ class Main{
         goal1.Name = "MATHS";
         Enjoyment enjoyment1 = new Enjoyment();
         enjoyment.game = "Cricket";
-        enjoyment.time = 3 ;
+        enjoyment.time = 5 ;
         System.out.println(enjoyment1.Game);
         System.out.println(enjoyment1.time);
     }

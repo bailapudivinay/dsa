@@ -34,7 +34,7 @@ class Main{
         System.out.println(enjoyment1.Game);
         System.out.println(enjoyment1.time);
         Best best1 = new Best();
-        best1.goodthings = "LOVE" ;
+        best1.goodthings = "LOdfffVE" ;
         System.out.println(best1.goodthings);
     }
 

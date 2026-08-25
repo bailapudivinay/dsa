@@ -1,44 +1,6 @@
-class Friends{
-    String Name;
-    int RollNumber;
-}
-class Goals{
-    int a;
-    String Name;
-}  
-class Enjoyment{
-    String activity ;
-    int time;
-}
-class Best{
-    String goodthings;
-}    
 class Main{
-    public static void main(String[] args) {
-        Friends frnd1 = new Friends();
-        frnd1.Name = "LOKESH";
-        frnd1.RollNumber = 914;
-        System.out.println(frnd1.Name);
-        System.out.println(frnd1.RollNumber);
-        Friends frnd2 = new Friends();
-        frnd2.Name = "SHIVA";
-        frnd2.RollNumber = 114;
-        System.out.println(frnd2.Name);
-        System.out.println(frnd2.RollNumber);
-        Goals goal1 = new Goals();
-        goal1.a = 1;
-        goal1.Name = "MATHS";
-        Enjoyment enjoyment1 = new Enjoyment();
-        enjoyment.game = "Cricket";
-        enjoyment.time = 5 ;
-        System.out.println(enjoyment1.Game);
-        System.out.println(enjoyment1.time);
-        Best best1 = new Best();
-        best1.goodthings = "LOdfffVE" ;
-        System.out.println(best1.goodthings);
+    public static void main(String [] args){
+        String a = "HELLO" ;
+        System.out.println(a);
     }
-
-    
-
-
 }

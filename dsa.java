@@ -5,5 +5,6 @@ class Main{
         System.out.println(a);
         System.out.println(b);
         System.out.println(b);
+        System.out.println(a);
     }
 }

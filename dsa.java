@@ -9,7 +9,7 @@ class Solution {
                 i++;
             }
             j++;
-            k++;
+            
         }
 
         return i == s.length();

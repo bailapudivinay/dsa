@@ -5,10 +5,6 @@ class Solution {
             return false;
         }
 
-        while (n % 2 == 0) {
-            n = n / 2;
-        }
-
         
 
         while (n % 5 == 0) {

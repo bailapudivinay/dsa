@@ -1,16 +1,17 @@
+import java.util.HashSet;
+
 class Solution {
-    public boolean isUgly(int n) {
+    public boolean containsDuplicate(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
 
-        if (n <= 0) {
-            return false;
+        for (int num : nums) {
+            if (set.contains(num)) {
+                return true;
+            }
+
+            set.add(num);
         }
 
-        
-
-        while (n % 5 == 0) {
-            n = n / 5;
-        }
-
-        return n == 1;
+        return false;
     }
 }

@@ -12,6 +12,6 @@ class Solution {
             set.add(num);
         }
 
-        return false;
+        return ;
     }
 }

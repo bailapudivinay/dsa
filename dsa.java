@@ -1,5 +1,5 @@
 impot java.util.*;
-public 
+public class main{
     
 
         
